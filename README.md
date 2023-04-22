@@ -1,5 +1,4 @@
-# sonoline-ac-boot-disk
-Siemens sonoline ac boot disk image
+# Siemens Sonoline AC boot floppy diskette image
 
 Copy of my original Siemens Sonoline AC floppy drive diskette using dd in ubuntu
 
@@ -12,7 +11,7 @@ sudo dd if=/dev/sdb of=./sonoline-ac-boot-disk-image.img bs=512 iflag=fullblock 
 (my floppy drive was /dev/sdb)
 
 ## Usage Instructions: 
-------------------
+
 You can write the image to a new floppy disk with:
 
 sudo dd if=./sonoline-ac-boot-disk-image.img of=/dev/sdb bs=512 iflag=fullblock conv=sync,noerror
