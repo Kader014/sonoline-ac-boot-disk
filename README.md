@@ -8,7 +8,9 @@ I created the floppy diskette image
 with:
 sudo dd if=/dev/sdb of=./sonoline-ac-boot-disk-image.img bs=512 iflag=fullblock conv=noerror 
 
-(my floppy drive was /dev/sdb)
+(my floppy drive was /dev/sdb) 
+
+I used a Sandberg USB Floppy Drive to create the floppy diskette image and to create the floppy copies.
 
 ## Usage Instructions: 
 
